@@ -1,0 +1,17 @@
+.filter_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  padding-top: 10px;
+  gap: 8px;
+  
+}
+
+.input {
+  width: 130px;
+  height: 25px;
+  font-weight: 600;
+  border-radius: 5px;
+  
+}

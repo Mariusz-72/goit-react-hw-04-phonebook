@@ -1,0 +1,34 @@
+.phonebook_wrapper {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.phonebook_form {
+    display: grid;
+    justify-items: start;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.button {
+    height: 30px;
+    font-weight: 600;
+    background-color: rgba(40, 170, 23, 0.822);
+    color: rgb(7, 7, 7);
+}
+.phonebook_name {
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.phonebook_number {
+    font-weight: 600;
+    line-height: 26px;
+}
