@@ -32,8 +32,9 @@
 }
 
 .button {
+    
     margin-left: 8px;
-    margin-top: 3px;
+    margin-top: 20px;
     height: 20px;
     background-color: rgba(243, 24, 24, 0.705);
     color: rgb(255, 240, 240);
