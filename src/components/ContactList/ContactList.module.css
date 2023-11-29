@@ -38,3 +38,10 @@
     background-color: rgba(243, 24, 24, 0.705);
     color: rgb(255, 240, 240);
 }
+
+.noContacts {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: red;
+}

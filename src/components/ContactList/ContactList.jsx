@@ -4,7 +4,7 @@ import css from './ContactList.module.css';
 
 const MyContactList = ({ contacts, removeContact }) => {
   if (!contacts || contacts.length === 0) {
-    return <p>No contacts available</p>; // Informacja o braku danych
+    return <p className={css.noContacts}>No contacts available</p>; // Informacja o braku danych
   }
 
   const names = contacts.map(({ id, name, number }) => (
