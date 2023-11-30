@@ -16,11 +16,11 @@ const MyContacts = () => {
     if (savedContacts) {
       setContacts(JSON.parse(savedContacts));
     }
-  }, []); // Pusta tablica dependency, useEffect wykona się tylko przy montowaniu komponentu
+  }, []);
 
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
-  }, [contacts]); // useEffect wykona się za każdym razem, gdy contacts zostanie zaktualizowany
+  }, [contacts]);
 
   const addContact = ({ name, number }) => {
     if (isDuplicate(name)) {
